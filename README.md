@@ -19,6 +19,10 @@ Replace every occurence of `PROJECT_NAME` in the files with your desired project
 - Install CMake (version 3.10 or higher).
 - Install GTest for testing
 
+Update the VSCode C++ extension settings in `.vscode/c_cpp_properties.json` to match your system.
+
+In particular, update the `compilerPath`, `intelliSenseMode`, and `includePath` fields.
+
 ### Run the code
 
 You can run the `scripts/sh/run.sh` (or `scripts\ps\run.ps1` if on Windows) script to generate the CMake files, build the project, and run the executable.
