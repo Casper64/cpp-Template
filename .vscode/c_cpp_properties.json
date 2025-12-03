@@ -6,6 +6,7 @@
                 "${workspaceFolder}/src",
                 "C:/msys64/mingw64/include",
                 "C:/msys64/mingw64/include/c++/15.2.0",
+                "${workspaceFolder}/include",
                 "${workspaceFolder}/lib/header_only/include",
                 "${workspaceFolder}/lib/source_files/include"
             ],
